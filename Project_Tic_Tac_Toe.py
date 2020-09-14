@@ -69,7 +69,7 @@ def VictoryFor(board, sign):
 
 def DrawMove(board):
     #
-    # the function draws the computer's move and updates the board
+    # the function draws the computer's move and updates the board...
     #
     freeFields = MakeListOfFreeFields(board)
     comp = randint(0, len(freeFields)-1)
