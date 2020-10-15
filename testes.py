@@ -1,6 +1,5 @@
-from platform import python_implementation, python_version_tuple
+a = []
 
-print(python_implementation())
-
-for atr in python_version_tuple():
-    print(atr)
+b = [1, 2, 3, 4, 5]
+a += b[1:3] + b[1:3]
+print(a)
